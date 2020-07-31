@@ -5,3 +5,8 @@
  */
 
 // You can delete this file if you're not using it
+exports.onInitialClientRender = () => {
+    window.addEventListener('popstate', () =>
+        window.location.href = window.location.href
+    )
+}

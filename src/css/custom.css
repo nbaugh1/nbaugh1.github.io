@@ -1,0 +1,44 @@
+body {
+  --navColor: black;
+  --backgroundColor: black;
+  --mainColor: white;
+  background-color: var(--backgroundColor);
+  color: var(--mainColor);
+}
+a {
+  color: var(--mainColor);
+}
+
+.bg-dark {
+  background-color: var(--backgroundColor) !important;
+}
+
+.navbar-dark {
+  background-color: var(--navColor) !important;
+}
+.navbar-brand {
+  border: solid;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.navbar-dark .navbar-brand {
+  color: var(--mainColor);
+}
+
+.jumbotron {
+  /* border: solid red; */
+}
+
+.card {
+  background-color: black;
+  color: white;
+}
+
+.footer-right {
+  float: right;
+}
+
+.footer-left {
+  float: left;
+}
