@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import React from "react"
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
-import Container from "react-bootstrap/Container"
 
 const Header = ({ siteTitle }) => (
   <header className="bg-dark">
