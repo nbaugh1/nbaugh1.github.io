@@ -18,8 +18,8 @@ const Image = () => {
     query {
       heroImage: file(relativePath: { eq: "hero-image.jpg" }) {
         childImageSharp {
-          fixed {
-            ...GatsbyImageSharpFixed
+          fluid {
+            ...GatsbyImageSharpFluid
 
           }
         }
@@ -27,7 +27,7 @@ const Image = () => {
     }
   `)
 
-  return <Img fixed={data.heroImage.childImageSharp.fixed} style={{ height: 300 }} />
+  return <Img fluid={data.heroImage.childImageSharp.fluid} style={{ height: 300 }} />
 }
 
 export default Image
