@@ -31,6 +31,8 @@ const Hero = () => {
         to: { opacity: 1 },
         delay: 3000
     })
+
+
     return (
         <Jumbotron fluid className="bg-dark" style={{ marginTop: 100 }}>
             <Row>
@@ -49,9 +51,14 @@ const Hero = () => {
                         <Button variant="outline-secondary" style={{ margin: 8 }} href="/resume.html">
                             Resume
                         </Button>
-                        <Button variant="outline-secondary" style={{ margin: 8 }}>
-                            Contact
-                        </Button>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="cta-btn cta-btn--resume"
+                            href={`mailto: nbaugh1@gmail.com`}
+                        ><Button variant="outline-secondary" style={{ margin: 8 }}>
+                                Contact
+                        </Button></a>
                     </Col>
                 </animated.div>
             </Row>
