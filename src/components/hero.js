@@ -1,9 +1,11 @@
 import React from 'react'
+import Link from 'gatsby'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Button from 'react-bootstrap/Button'
 import Image from './image'
+import Resume from '../files/Nick-Baughman-Software-Developer-Resume.pdf'
 import { useSpring, animated, config } from 'react-spring'
 
 
@@ -48,9 +50,10 @@ const Hero = () => {
             <Row style={{ justifyContent: "center" }}>
                 <animated.div style={fourthFade} >
                     <Col  >
-                        <Button variant="outline-secondary" style={{ margin: 8 }} href="/resume.html">
-                            Resume
-                        </Button>
+                        <a href={Resume} download><Button variant="outline-secondary" style={{ margin: 8 }}>
+                            Download CV
+                        </Button></a>{` `}
+
                         <a
                             target="_blank"
                             rel="noopener noreferrer"

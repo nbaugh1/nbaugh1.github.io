@@ -17,11 +17,7 @@ const Header = ({ siteTitle }) => (
               Home
             </Link>
           </Nav.Item>
-          <Nav.Item as="li">
-            <Link to="/resume.html" className="nav-link" activeClassName="active">
-              Resume
-            </Link>
-          </Nav.Item>
+
           <Nav.Item as="li">
             <Link to="/projects" className="nav-link" activeClassName="active">
               Projects
