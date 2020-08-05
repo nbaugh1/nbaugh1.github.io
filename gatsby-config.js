@@ -27,6 +27,16 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-source-rss-feed`,
+      options: {
+        url: `https://npb-dev-blog.netlify.app/rss.xml`,
+        name: `NPBDevBlog`,
+        // Optional
+        // Read parser document: https://github.com/bobby-brennan/rss-parser#readme
+
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

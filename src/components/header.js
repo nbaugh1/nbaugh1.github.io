@@ -28,9 +28,9 @@ const Header = ({ siteTitle }) => (
             </Link>
           </Nav.Item>
           <Nav.Item as="li">
-            <a href="https://npb-dev-blog.netlify.app/" className="nav-link" activeClassName="active" target="_blank">
+            <Link to="/blogs" className="nav-link" activeClassName="active">
               Blog
-            </a>
+            </Link>
           </Nav.Item>
           <Nav.Item as="li">
             <Link to="/page-2" className="nav-link" activeClassName="active">
