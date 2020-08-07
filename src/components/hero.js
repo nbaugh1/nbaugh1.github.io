@@ -44,7 +44,7 @@ const Hero = () => {
                     <animated.p style={thirdFade}>JavaScript - React - Ruby - Rails</animated.p>
                 </Col>
                 <Col>
-                    <Image />
+                    <Image className="hero-image" />
                 </Col>
             </Row>
             <Row style={{ justifyContent: "center" }}>

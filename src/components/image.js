@@ -27,7 +27,7 @@ const Image = () => {
     }
   `)
 
-  return <Img fluid={data.heroImage.childImageSharp.fluid} style={{ height: 300 }} />
+  return <Img fluid={data.heroImage.childImageSharp.fluid} className="hero-image" />
 }
 
 export default Image
