@@ -42,12 +42,15 @@ const Hero = () => {
                     <animated.h1 style={firstFade}>Nick Baughman</animated.h1>
                     <animated.h5 style={secondFade}>Software Engineer</animated.h5>
                     <animated.p style={thirdFade}>JavaScript - React - Ruby - Rails</animated.p>
+                    <animated.p style={fourthFade}> - Writes code, builds web apps, blogger, full stack developer,
+                    dog dad, reader, podcast listener, occasional gamer
+                    </animated.p>
                 </Col>
                 <Col>
                     <Image className="hero-image" />
                 </Col>
             </Row>
-            <Row style={{ justifyContent: "center" }}>
+            <Row style={{ justifyContent: "center", padding: '30px' }}>
                 <animated.div style={fourthFade} >
                     <Col  >
                         <a href={Resume} download><Button variant="outline-secondary" style={{ margin: 8 }}>

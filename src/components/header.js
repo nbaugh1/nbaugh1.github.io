@@ -8,7 +8,11 @@ const Header = ({ siteTitle }) => (
   <header className="bg-dark">
     {/* <Container> */}
     <Navbar expand="sm" variant="dark" bg="dark" fixed="top">
-      {/* <Navbar.Brand>{siteTitle}</Navbar.Brand> */}
+      <Navbar.Brand className='nav-link' activeClassName='active'>
+        <Link to='/'>
+          NPB
+        </Link>
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarResponsive" />
       <Navbar.Collapse id="navbarResponsive">
         <Nav as="ul" className="ml-auto">
@@ -29,7 +33,7 @@ const Header = ({ siteTitle }) => (
             </Link>
           </Nav.Item>
           <Nav.Item as="li">
-            <Link to="/page-2" className="nav-link" activeClassName="active">
+            <Link to="/about" className="nav-link" activeClassName="active">
               About
             </Link>
           </Nav.Item>

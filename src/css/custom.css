@@ -16,23 +16,24 @@ a {
 .navbar-dark {
   background-color: var(--navColor) !important;
 }
-.navbar-brand {
+/* .navbar-brand {
   border: solid;
   border-radius: 10px;
   padding: 3px;
-}
+  text-decoration: none;
+} */
 
 .navbar-dark .navbar-brand {
   color: var(--mainColor);
 }
 
-.jumbotron {
-  /* border: solid red; */
-}
-
 .card {
   background-color: black;
   color: white;
+}
+
+.footer {
+  background-color: black;
 }
 
 .footer-right {
@@ -41,4 +42,8 @@ a {
 
 .footer-left {
   float: left;
+}
+
+.hero-image {
+  max-height: 300px;
 }

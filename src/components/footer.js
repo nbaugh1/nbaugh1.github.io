@@ -10,7 +10,7 @@ const Footer = () => {
     const email = "nbaugh1@gmail.com"
     return (
         <footer>
-            <Navbar fixed="bottom">
+            <Navbar fixed="bottom" className="footer">
                 <Nav>
                     Nick Baughman © 2020, Built with Gatsby.js
                     </Nav>
