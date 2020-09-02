@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Button from 'react-bootstrap/Button'
 import Image from './image'
-import Resume from '../files/Nick-Baughman-Software-Developer-Resume.pdf'
+import Resume from '../files/Nick-Baughman-Resume.pdf'
 import { useSpring, animated, config } from 'react-spring'
 
 
@@ -43,7 +43,7 @@ const Hero = () => {
                     <animated.h5 style={secondFade}>Software Engineer</animated.h5>
                     <animated.p style={thirdFade}>JavaScript - React - Ruby - Rails</animated.p>
                     <animated.p style={fourthFade}> - Writes code, builds web apps, blogger, full stack developer,
-                    dog dad, reader, podcast listener, occasional gamer
+                    dog dad, reader, podcast listener
                     </animated.p>
                 </Col>
                 <Col>
